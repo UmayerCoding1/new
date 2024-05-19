@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Eagle Lake", serif;
+    transition: .2s ease;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 66.5%;
+    
+}
+
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.header .navbar ul{
+    display: flex;
+}
+
+.header .navbar ul li{
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.header .navbar ul li a{
+    color: #000;
+    border-left: 1px solid #000;
+}
+
+.header .navbar ul li a:hover{
+   border-bottom: 2px solid #000; 
+   color: #09ee0977;
+   border-left: none;
+}
+
+/*  */
+
+/* product */
+.main-img{
+    margin: 20px 0;
+}
+
+.img-1{
+    width: 350px;
+    height: 60vh;
+    margin: auto;
+}
+
+.img-div{
+    width: 100%;
+    height: 100%;
+}
+
+.all-img{
+    margin: 140px 0;
+    text-align: center;
+}
+
+.allin-one{
+    width: 100px;
+    margin:3px 20px;
+    background-color: #000;
+}
+p{
+    padding-bottom: 5px;
+}
